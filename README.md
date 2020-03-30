@@ -28,6 +28,8 @@ start <show menu>
  ```
  
  # Priview Bots
+- if you want to test my bot here's the link [Click Here](https://api.whatsapp.com/send?phone=+14155238886)
+
 <img src="https://user-images.githubusercontent.com/58212770/77884130-afe27d80-728e-11ea-8949-57b993f432a7.jpeg" height="500" width="250">  <img src="https://user-images.githubusercontent.com/58212770/77884126-ae18ba00-728e-11ea-9629-d2f61639e2af.jpeg" height="500" width="250">
 
 
