@@ -27,7 +27,7 @@
  ```
  
  # Priview Bots
-<img src="https://user-images.githubusercontent.com/58212770/77884130-afe27d80-728e-11ea-8949-57b993f432a7.jpeg" height="500" width="250"><img src="https://user-images.githubusercontent.com/58212770/77884126-ae18ba00-728e-11ea-9629-d2f61639e2af.jpeg" height="500" width="250">
+<img src="https://user-images.githubusercontent.com/58212770/77884130-afe27d80-728e-11ea-8949-57b993f432a7.jpeg" height="500" width="250">  <img src="https://user-images.githubusercontent.com/58212770/77884126-ae18ba00-728e-11ea-9629-d2f61639e2af.jpeg" height="500" width="250">
 
 
  [Medium tutorial](https://www.twilio.com/blog/build-a-whatsapp-chatbot-with-python-flask-and-twilio)
