@@ -20,10 +20,11 @@
 
 ## ⌨️ Usage
 ```
-- Fb <Url Video>
-- Yt <Url Video>
-- Ig <Url Video>
-- S  <Query>
+start <show menu>
+/FB <your url>
+/IG <your url>
+/YT <your url>
+/TR <for translate id to eng>
  ```
  
  # Priview Bots
