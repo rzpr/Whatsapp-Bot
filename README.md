@@ -7,7 +7,8 @@
 
 ## ✨ Features
 - Facebook Video Downloader ✅
-- Instagram Video Downloader ❌ (Next Update)
+- Instagram Video Downloade ✅
+- Translator Id > eng ✅
 - Youtube Downloader ❌ (Next Update)
 - Search Engine ❌ (Next Update)
 
