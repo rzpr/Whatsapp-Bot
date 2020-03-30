@@ -19,9 +19,11 @@
 * A [Twilio](https://www.twilio.com/) account
 
 ## ⌨️ Usage
-- Fb   >Url Video<
-- Yt   >Url Video<
-- Ig   >Url Video<
-- S     >Url Video<
- 
+```
+- Fb <Url Video>
+- Yt <Url Video>
+- Ig <Url Video>
+- S  <Query>
+ ```
+
  [Medium tutorial](https://www.twilio.com/blog/build-a-whatsapp-chatbot-with-python-flask-and-twilio)
