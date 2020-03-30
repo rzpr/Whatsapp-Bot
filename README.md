@@ -1,5 +1,6 @@
 # 🤖 Whatsapp-Helper-Bot
 (Bots For Helping You For Downloads Social Media Video)
+
 ![Python Badge](https://img.shields.io/badge/Made%20with-Python-blue)
 
 
@@ -18,9 +19,9 @@
 * A [Twilio](https://www.twilio.com/) account
 
 ## ⌨️ Usage
-- Fb <<Video Url>>
-- Yt <<Video Url>>
-- Ig <<Video Url>>
-- S  <<Video Url>>
+- Fb Url Video
+- Yt Url Video
+- Ig Url Video
+- S  Url Video
  
  [Medium tutorial](https://www.twilio.com/blog/build-a-whatsapp-chatbot-with-python-flask-and-twilio)
