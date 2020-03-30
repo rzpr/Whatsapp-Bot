@@ -30,7 +30,7 @@ start <show menu>
  # Priview Bots
 - if you want to test my bot here's the link [Click Here](https://api.whatsapp.com/send?phone=+14155238886)
 
-<img src="https://user-images.githubusercontent.com/58212770/77884130-afe27d80-728e-11ea-8949-57b993f432a7.jpeg" height="500" width="250">  <img src="https://user-images.githubusercontent.com/58212770/77884126-ae18ba00-728e-11ea-9629-d2f61639e2af.jpeg" height="500" width="250">
+<img src="https://user-images.githubusercontent.com/58212770/77909441-8be76200-72b7-11ea-85e7-2fd0a3f516f7.png" height="500" width="250">  <img src="https://user-images.githubusercontent.com/58212770/77909449-8ee25280-72b7-11ea-97fe-e9bd2904703d.png" height="500" width="250"> <img src="https://user-images.githubusercontent.com/58212770/77909458-93a70680-72b7-11ea-9240-572f230266ee.png" height="500" width="250">
 
 
 ## 🖥️ Installation
