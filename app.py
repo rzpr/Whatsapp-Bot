@@ -19,7 +19,7 @@ def bot():
     responded = False
     
     if 'p' in incoming_msg or 'P' in incoming_msg or 'Menu' in incoming_msg or 'menu' in incoming_msg or 'start' in incoming_msg:
-        text = f'Hallo🙋🏽‍♂ \nBot Ini Dibuat Oleh _Rezza Priatna_ Semoga Bisa Membantu Kamu :)\n\nBerikut Inilah Yang Bisa Saya Lakukan 👇 \n\n *fb* <url>. Untuk Mendownlad video *Facebook*.\n\n *Ig* <url>. Untuk Mendownlad Video *Instagram*. \n\n *Yt* <urL>. Untuk Mendownlad Video *Youtube*.\n\n *S* <url>. Untuk Menggunakan *Search Engine*'
+        text = f'Hallo🙋🏽‍♂ \nBot Ini Dibuat Oleh _Rezza Priatna_ Semoga Bisa Membantu Kamu :)\n\nBerikut Inilah Yang Bisa Saya Lakukan 👇 \n\n *fb* <url>. Untuk Mendownlad video *Facebook*.\n\n *Ig* <url>. Untuk Mendownlad Video *Instagram*. \n\n *Yt* <urL>. Untuk Mendownlad Video *Youtube*.\n\n *S* <url>. Untuk Menggunakan *Search Engine*\n\n *Tr* Text Yang Ingin Di Translate'
         msg.body(text)
         responded = True
 
