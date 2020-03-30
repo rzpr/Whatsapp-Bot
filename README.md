@@ -29,8 +29,9 @@
  # Priview Bots
 <img src="https://user-images.githubusercontent.com/58212770/77884130-afe27d80-728e-11ea-8949-57b993f432a7.jpeg" height="500" width="250">  <img src="https://user-images.githubusercontent.com/58212770/77884126-ae18ba00-728e-11ea-9629-d2f61639e2af.jpeg" height="500" width="250">
 
-```
+
 ## 🖥️ Installation
+```
 $ git clone https://github.com/rezzaapr/Whatsapp-Helper-Bot
 $ cd Whatsapp-Helper-Bot
 $ pip3 install -r requirements.txt
@@ -50,6 +51,6 @@ After Run app.py The Output Look Like This :
  ```
  To Make Sure Bot Running you Must Using Ngrok Or Upload To Heroku / Webhook
  
- Here's The Tutorial 
+ * Here's The Tutorial 
  
  [Medium tutorial](https://www.twilio.com/blog/build-a-whatsapp-chatbot-with-python-flask-and-twilio)
