@@ -27,7 +27,7 @@ def bot():
         import re
         par = incoming_msg[3:]
         html = r.get(par)
-        video_url = re.search('hd_src:"(.+?)"', html.text).group(1)
+        video_url = re.search('sd_src:"(.+?)"', html.text).group(1)
         msg.media(video_url)
         responded = True
 
