@@ -45,7 +45,7 @@ def bot():
     if 'Tr' in incoming_msg:
         par = incoming_msg[3:]
         translator = Translator()
-        result = translator.translate('How Are You', src='id', dest='en')
+        result = translator.translate(par, src='id', dest='en')
         msg.body(result.text)
         responded = True
     
