@@ -19,7 +19,7 @@ def bot():
     responded = False
     
     if 'start' in incoming_msg:
-        text = f'Hallo🙋🏽‍♂ \nBot Ini Dibuat Oleh _Rezza Priatna_ Semoga Bisa Membantu Kamu :)\n\nBerikut Inilah Yang Bisa Saya Lakukan 👇 \n\n *FB* <url>. Untuk Mendownlad video *Facebook*.\n\n *IG* <url>. Untuk Mendownlad Video *Instagram*. \n\n *YT* <urL>. Untuk Mendownlad Video *Youtube*.\n\n *S*  <url>. Untuk Menggunakan *Search Engine* \n\n */FB* <pesan> Untuk Menggunakan *Translate eng_idn*'
+        text = f'Hallo🙋🏽‍♂ \nBot Ini Dibuat Oleh _Rezza Priatna_ Semoga Bisa Membantu Kamu :)\n\nBerikut Inilah Yang Bisa Saya Lakukan 👇 \n\n */FB* <url>. Untuk Mendownlad video *Facebook*.\n\n */IG* <url>. Untuk Mendownlad Video *Instagram*. \n\n */YT* <urL>. Untuk Mendownlad Video *Youtube*.\n\n */S*  <url>. Untuk Menggunakan *Search Engine* \n\n */TR* <pesan> Untuk Menggunakan *Translate eng_idn*'
         msg.body(text)
         responded = True
     else:
