@@ -11,9 +11,11 @@
 - Search Engine ❌ (Next Update)
 
 ## 🗒️ Requirements
-[Python 3.6](https://www.python.org/downloads/) 
-[Flask](https://palletsprojects.com/p/flask/) web application framework for Python
-A [Twilio](https://www.twilio.com/) account
+*[Python 3.6](https://www.python.org/downloads/) 
+
+*[Flask](https://palletsprojects.com/p/flask/) web application framework for Python
+
+*A [Twilio](https://www.twilio.com/) account
 
 ## ⌨️ Usage
 - Fb <Video Url>
