@@ -2,6 +2,7 @@ from flask import Flask, request
 import requests
 import json
 from twilio.twiml.messaging_response import MessagingResponse
+from googletrans import Translator
 
 app = Flask(__name__)
 
@@ -41,6 +42,12 @@ def bot():
         msg.body(text)
         responded = True
     
+    if 'Tr' in incoming_msg:
+        par = incoming_msg[3:]
+        translator = Translator()
+        result = translator.translate('How Are You', src='id', dest='en')
+        msg.body(result.text)
+        responded = True
     
 
     if responded == False:
