@@ -10,6 +10,7 @@
 - Instagram Video Downloade ✅
 - Translator Id > eng ✅
 - Google Search Engine ✅
+- Get Instagram Profile Info
 
 ## 🗒️ Requirements
 * [Python 3.6](https://www.python.org/downloads/) 
@@ -26,6 +27,7 @@ start <show menu>
 /YT <your url>
 /TR <for translate id to eng>
 /GL < query >
+/GS <username>
  ```
  
  # Priview Bots
