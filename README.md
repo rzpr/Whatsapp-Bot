@@ -25,6 +25,7 @@ start <show menu>
 /IG <your url>
 /YT <your url>
 /TR <for translate id to eng>
+/GL < query >
  ```
  
  # Priview Bots
