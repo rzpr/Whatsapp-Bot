@@ -19,7 +19,7 @@ def bot():
     responded = False
     
     if 'start' in incoming_msg:
-        text = f'🤖 *Hallo, Selamat Datang Saya Adalah Recsec Bot Dibuat Oleh _Rezza Priatna_ Jika Butuh Bantuan Lihat Command Dibawah\n\n📄*Berikut Command Yang Bisa Saya Lakukan* : \n\n🛡️ */FB* <url>. Untuk Mendownlad video *Facebook*.\n\n🛡️ */IG* <url>. Untuk Mendownlad Video *Instagram*. \n\n🛡️ */SG* <username>. Untuk Stalking Profile *instagram*.\n\n🛡️ */GL* <query>. Untuk Menggunakan *Search Engine* \n\n🛡️ */TR* <pesan> Untuk Menggunakan *Translate eng_idn*\n\n🛡️ *help* Info Cara Menggunakan Tools'
+        text = f'🤖 *Hallo, Selamat Datang Saya Adalah Recsec Bot Dibuat Oleh _Rezza Priatna_ Jika Butuh Bantuan Kontak Admin :\n☎️ 085885105039\n📲 fb.me/rezzapriatna12\n\n 📄*Cara Penggunaan Bot* : \n\n🛡️ */FB* <url>. Untuk Mendownlad video *Facebook*.\n\n🛡️ */IG* <url>. Untuk Mendownlad Video *Instagram*. \n\n🛡️ */SG* <username>. Untuk Stalking Profile *instagram*.\n\n🛡️ */GL* <query>. Untuk Menggunakan *Search Engine* \n\n🛡️ */TR* <pesan> Untuk Menggunakan *Translate eng_idn*\n\n🛡️ *help* Info Cara Menggunakan Tools'
         msg.body(text)
         responded = True
     else:
