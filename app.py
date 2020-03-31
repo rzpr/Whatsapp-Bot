@@ -63,7 +63,18 @@ def bot():
         result = translator.translate(par, src='id', dest='en')
         msg.body(result.text)
         responded = True
-
+        
+    if '/SG' in incoming_msg:
+        par = incoming_msg[3:]
+        p = requests.get('https://www.instagram.com/'+par+'/?__a=1')
+        q = requests.get('http://api.farzain.com/ig_profile.php?id='+par+'&apikey=JsaChFteVJakyjBa0M5syf64z')
+        jp = q.json()['count']
+        js = p.json()['graphql']['user']
+        text = f'*Username* : {js["username"]} \n*Full Name* : {js["full_name"] \n*Bio* : {["biography"]} \n*Followers* : {jp["followers"]} \n*Following* : {jp["following"]}'
+        p = (["profile_pic_url_hd"]) 
+        msg.body(text)
+        msg.media(p)
+                                                                
     if 'help' in incoming_msg:
        text = f'💻 *Help For Instagram*\n\n/IG Link Video Contoh : \n/IG https://www.instagram.com/p/BWhyIhRDBCw/\n\n\n*Note* : Link Harus Seperti Di Contoh Kalo link Akhirannya Ada ?utm_source=ig_web_copy_link hapus bagian itu\n\n 💻 *Help For Facebook*\n\n/FB _link video_ Contoh :\n\n/FB https://www.facebook.com/100010246050928/posts/1143182719366586/?app=fbl \n\n💻 *Help For Translate*\n\n/TR Text Yang Ingin Di Translate, Contoh :\n\n/TR Selamat Malam '
        msg.body(text)
