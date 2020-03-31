@@ -19,7 +19,7 @@ def bot():
     responded = False
     
     if 'start' in incoming_msg:
-        text = f'🤖 *Hallo, Selamat Datang Saya Adalah Recsec Bot Dibuat Oleh _Rezza Priatna_ Jika Butuh Bantuan Lihat Command Dibawah\n\n📄 *Berikut Command Yang Bisa Saya Lakukan* : \n\n🛡️ */FB* <url>. Untuk Mendownlad video *Facebook*.\n\n🛡️ */IG* <url>. Untuk Mendownlad Video *Instagram*. \n\n🛡️ */YT* <urL>. Untuk Mendownlad Video *Youtube*.\n\n🛡️ */S*  <url>. Untuk Menggunakan *Search Engine* \n\n🛡️ */TR* <pesan> Untuk Menggunakan *Translate eng_idn*\n\n🛡️ *help* Info Cara Menggunakan Tools'
+        text = f'🤖 *Hallo, Selamat Datang Saya Adalah Recsec Bot Dibuat Oleh _Rezza Priatna_ Jika Butuh Bantuan Lihat Command Dibawah\n\n📄*Berikut Command Yang Bisa Saya Lakukan* : \n\n🛡️ */FB* <url>. Untuk Mendownlad video *Facebook*.\n\n🛡️ */IG* <url>. Untuk Mendownlad Video *Instagram*. \n\n🛡️ */YT* <urL>. Untuk Mendownlad Video *Youtube*.\n\n🛡️ */GL* <query>. Untuk Menggunakan *Search Engine* \n\n🛡️ */TR* <pesan> Untuk Menggunakan *Translate eng_idn*\n\n🛡️ *help* Info Cara Menggunakan Tools'
         msg.body(text)
         responded = True
     else:
@@ -47,8 +47,16 @@ def bot():
         c = b['graphql']['shortcode_media']
         d = (c['video_url']) 
         msg.media(d)
-        responded = True         
-
+        responded = True  
+        
+    if '/GL' in incoming_msg:
+        from googlesearch import search
+        query = incoming_msg[3:]
+        for i in search(query, tld="com", num=10, stop=5, pause=2):
+            text = f'==========Results==========\n\n *Reff* : '+i
+            msg.body(text)
+            responded = True
+            
     if '/TR' in incoming_msg:
         par = incoming_msg[3:]
         translator = Translator()
