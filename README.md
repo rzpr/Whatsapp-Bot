@@ -31,7 +31,17 @@ start <show menu>
  # Priview Bots
 - if you want to test my bot here's the link [Click Here](https://api.whatsapp.com/send?phone=+14155238886) and enter the welcome message : join government-would
 
-<img src="https://user-images.githubusercontent.com/58212770/77909441-8be76200-72b7-11ea-85e7-2fd0a3f516f7.png" height="500" width="250">  <img src="https://user-images.githubusercontent.com/58212770/77909449-8ee25280-72b7-11ea-97fe-e9bd2904703d.png" height="500" width="250"> <img src="https://user-images.githubusercontent.com/58212770/77909458-93a70680-72b7-11ea-9240-572f230266ee.png" height="500" width="250">
+![Screenshot_20200331_151927](https://user-images.githubusercontent.com/58212770/78006343-1509a200-7367-11ea-86fb-16178912e3f4.png)
+![Screenshot_20200331_152023](https://user-images.githubusercontent.com/58212770/78006358-1c30b000-7367-11ea-9fe8-4c9432e01381.png)
+![Screenshot_20200331_152217]()
+![Screenshot_20200331_152314](https://user-images.githubusercontent.com/58212770/78006393-29e63580-7367-11ea-9c90-8c0f834fee5b.png)
+![Screenshot_20200331_152350](https://user-images.githubusercontent.com/58212770/78006412-310d4380-7367-11ea-9d40-1d07e4097841.png)
+
+
+
+
+<img src="https://user-images.githubusercontent.com/58212770/78006343-1509a200-7367-11ea-86fb-16178912e3f4.png" height="500" width="250">  <img src="https://user-images.githubusercontent.com/58212770/78006358-1c30b000-7367-11ea-9fe8-4c9432e01381.png" height="500" width="250"><img src="https://user-images.githubusercontent.com/58212770/78006377-22269100-7367-11ea-82a2-cf631d9aa5af.png" height="500" width="250"><img src="https://user-images.githubusercontent.com/58212770/78006393-29e63580-7367-11ea-9c90-8c0f834fee5b.png" height="500" width="250"><img src="https://user-images.githubusercontent.com/58212770/78006412-310d4380-7367-11ea-9d40-1d07e4097841.png" height="500" width="250">
+
 
 
 ## 🖥️ Installation
