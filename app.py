@@ -19,7 +19,7 @@ def bot():
     responded = False
     
     if 'start' in incoming_msg:
-        text = f'🤖 *Hallo, Selamat Datang Saya Adalah Recsec Bot Dibuat Oleh _Rezza Priatna_ Jika Butuh Bantuan/Ingin Requests Contack Dibawah :\n\n☎️ 085885105039\n📲 fb.me/rezzapriatna12\n\n📄*Berikut Command Yang Bisa Saya Lakukan* : \n\n🛡️ */FB* <url> ( Facebook Downloader )\n\n🛡️ */IG* <url> ( Instagram Downloader ) \n\n🛡️ */SG* <username> ( Stalk Profil Instagram )\n\n🛡️ */GL* <query> ( Google Search )\n\n🛡️ */TR-id-en* <text> ( Translate IDN>ENG )\n\n🛡️ */TR-eng-id* <text> ( Translate ENG>ID )\n\n🛡️ */TR-id-kor* <text> ( Translate ID>KOR )\n\n🛡️ */TR-kor-id* <text> ( Translate KOR>ID )\n\n🛡️ /*TTS* <text> (Text To Speech) \n\n🛡️*help* Info Cara Menggunakan Tools'
+        text = f'🤖 *Hallo, Selamat Datang Saya Adalah Recsec Bot Dibuat Oleh _Rezza Priatna_ Jika Butuh Bantuan/Ingin Requests Contack Dibawah :\n\n☎️ 085885105039\n📲 fb.me/rezzapriatna12\n\n📄*Berikut Command Yang Bisa Saya Lakukan* : \n\n🛡️ */FB* <url> ( Facebook Downloader )\n\n🛡️ */IG* <url> ( Instagram Downloader ) \n\n🛡️ */SG* <username> ( Stalk Profil Instagram )\n\n🛡️ */GL* <query> ( Google Search )\n\n🛡️ */TR-id-en* <text> ( Translate IDN>ENG )\n\n🛡️ */TR-en-id* <text> ( Translate ENG>ID )\n\n🛡️ */TR-id-kor* <text> ( Translate ID>KOR )\n\n🛡️ */TR-kor-id* <text> ( Translate KOR>ID )\n\n🛡️ /*TTS* <text> (Text To Speech) \n\n🛡️*help* Info Cara Menggunakan Tools'
         msg.body(text)
         responded = True
     else:
