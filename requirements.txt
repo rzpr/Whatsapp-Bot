@@ -16,3 +16,4 @@ twilio==6.37.0
 urllib3==1.25.8
 googletrans
 google
+pafy
