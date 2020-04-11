@@ -19,12 +19,16 @@ def bot():
     responded = False
     
     if 'start' in incoming_msg:
-        text = f'🤖 _Halo Saya Adalah Recsec Bot, Ada Yang Bisa Saya Bantu?_\n\n*Admin :*\n\n📞 : 085885105039\n📱 : _fb.me/rezzapriatna12_ \n\n🚀 *Fitur* \n\n✅ _Facebook Downloader_ \n✅ _Instagram Downloader_ \n✅ _Google Search_ \n✅ _Text To Speech_ \n✅ _Stalking Profil Instagram_ \n✅ _Translate_ \n\n\n _Untuk Menampilkan Command Ketik_ *Menu*'
+        text = f'🤖 _Halo Saya Adalah Recsec Bot, Ada Yang Bisa Saya Bantu?_\n\n*Admin :*\n\n📞 : 085885105039\n📱 : _fb.me/rezzapriatna12_ \n\n🚀 *Fitur* \n\n✅ _Youtube Downloader_ \n✅ _Facebook Downloader_ \n✅ _Instagram Downloader_ \n✅ _Google Search_ \n✅ _Text To Speech_ \n✅ _Stalking Profil Instagram_ \n✅ _Translate_ \n\n\n _Untuk Menampilkan Command Ketik_ *Menu*'
         msg.body(text)
         responded = True
     else:
         responded = False
- 
+    if 'Menu' in incoming_msg or 'menu' in incoming_msg:
+        text = f'⌨️*List Of Command :* \n\n🔥 */YT* _<url>_ : Youtube Downloader\n🔥 */FB* _<url>_ : Facebook Downloader\n🔥 */IG* _<url>_ : Instagram Downloader\n🔥 */FL* _<url>_ : Download Video Fb Ukuran BIG\n🔥 */GL* _<query>_ : Google Search\n🔥 */SG* _<usrname>_ : Get Info Instagram Profile\n🔥 */TTS* <Text> : Text To Speech\n 🔥 */TR-id-en* _<text> : Translate ID > ENG\n🔥 */TR-en-id* _<text> : Translate ENG > ID\n🔥 */TR-id-kor* _<text>_ : Translate ID > Korea\n🔥 */TR-kor-id* _<text>_ : Translate Korea > ID\n🔥 *help* : Cara Menggunkan Command'
+        msg.body(text)
+        responded = True
+        
     if '/FB' in incoming_msg:
         import requests as r
         import re
