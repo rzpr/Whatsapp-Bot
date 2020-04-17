@@ -125,15 +125,15 @@ def bot():
         msg.body('_=========================_\n\n     _Video Berhasil Diconvert_\n\n_=========================_\n\n''*'+gen.title+'*''\n\n*Link Download Music* :' +req.text+'\n\n*Link Download Video* :' +popo.text)
         responded = True
         
-        if '/SY' in incoming_msg:
-            import requests as r
-            par = incoming_msg[3:]
-            req = r.get('http://api.farzain.com/yt_search.php?id='+par+'&apikey=JsaChFteVJakyjBa0M5syf64z&')
-            js = req.json()[1]
-            text = f'*Judul* :  _{js["title"]}_ \n\n*Url Video* : _{js["url"]}_\n\n*Video ID* : _{js["videoId"]}\n\n_Note : Jika Ingin Download Video Ini Atau Convert Ke Musik, Salin Link Diatas Dan Gunakan Command /YT_'
-            msg.body(text)
-            msg.media((js['videoThumbs']))
-            responded = True
+    if '/SY' in incoming_msg:
+        import requests as r
+        par = incoming_msg[3:]
+        req = r.get('http://api.farzain.com/yt_search.php?id='+par+'&apikey=JsaChFteVJakyjBa0M5syf64z&')
+        js = req.json()[1]
+        text = f'*Judul* :  _{js["title"]}_ \n\n*Url Video* : _{js["url"]}_\n\n*Video ID* : _{js["videoId"]}\n\n_Note : Jika Ingin Download Video Ini Atau Convert Ke Musik, Salin Link Diatas Dan Gunakan Command /YT_'
+        msg.body(text)
+        msg.media((js['videoThumbs']))
+        responded = True
  
     if 'help' in incoming_msg:
        text = f'💻 *Help For Instagram*\n\n/IG <Link Video> Contoh : \n/IG https://www.instagram.com/p/BWhyIhRDBCw/\n\n\n*Note* : Link Harus Seperti Di Contoh Kalo link Akhirannya Ada ?utm_source=ig_web_copy_link hapus bagian itu\n\n 💻 *Help For Facebook*\n\n/FB _link video_ Contoh :\n\n/FB https://www.facebook.com/100010246050928/posts/1143182719366586/?app=fbl \n\n💻 *Help For Google Search* \n\n /GL <Query> Contoh :  \n\n/GL rezzaapr \n\n💻 *Help For Instagram Stalking \n\n/SG <username> Contoh : \n\n/SG rzapr \n\n💻 *Help For Translate* \n\nTR-id-en Translate indonesia Ke inggris\n\n/TR-en-id Translate Inggris Ke Indonesia\n\n/TR-id-kor Translate Indonesia Ke Korea \n\n/TR-kor-id Translate Korea Ke Indonesia \n\n💻 *Help For Text To Speech* \n\n/TTS WhatsappBotRezzaapr\n\nJika Ingin Menggunakan Spasi Ganti Dengan %20\n\nContoh : /TTS Whatsapp%20Bot%Rezzaapr'
