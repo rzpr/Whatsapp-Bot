@@ -22,8 +22,14 @@ def bot():
         text = f'🤖 _Halo Saya Adalah Recsec Bot, Ada Yang Bisa Saya Bantu?_\n\n*Admin :*\n\n📞 : 085885105039\n📱 : _fb.me/rezzapriatna12_ \n\n🚀 *Fitur* \n\n✅ _Youtube Downloader_ \n✅ _Facebook Downloader_ \n✅ _Instagram Downloader_ \n✅ _Google Search_ \n✅ _Text To Speech_ \n✅ _Stalking Profil Instagram_ \n✅ _Translate_ \n\n\n _Untuk Menampilkan Command Ketik_ *Menu*'
         msg.body(text)
         responded = True
-    else:
-        responded = False
+    if 'info-covid' in incoming_msg or 'Info-covid' in incoming_msg:
+        import requests as r, json
+        req = r.get('https://coronavirus-19-api.herokuapp.com/countries/indonesia')
+        reqq = r.get('https://coronavirus-19-api.herokuapp.com/countries/world')
+        jss = reqq.json()
+        js = req.json()
+        text = f'*Info Coronavirus Indonesia*\n\n\n*Positif* : {js['cases']} \n*Sembuh* : {js['recovered']} \n*Meninggal* : {js['deaths']}  \n\n\n*Global* \n*Positif* : {jss['cases']} \n*Sembuh* : {jss['recovered']} \n*Meninggal* : {jss['deaths']} 
+    
     if 'Menu' in incoming_msg or 'menu' in incoming_msg:
         text = f'⌨️ *List Of Command :* \n\n🔥*/JS* _<kota>_ Jadwal Sholat  \n\n🔥*jadwal-imsak* _Menampilkan Jadwal Imsak_ \n\n🔥*/SY* _<url>_ : Youtube Search\n🔥 */YT* _<url>_ : Youtube Downloader\n🔥 */FB* _<url>_ : Facebook Downloader\n🔥 */IG* _<url>_ : Instagram Downloader\n🔥 */FL* _<url>_ : Download Video Fb Ukuran BIG\n🔥 */GL* _<query>_ : Google Search\n🔥 */SG* _<usrname>_ : Get Info Instagram\n🔥 */TTS* <Text> : Text To Speech\n🔥 */TR-id-en* _<text>_ : Translate ID > ENG\n🔥 */TR-en-id* _<text>_ : Translate ENG > ID\n🔥 */TR-id-kor* _<text>_ : Translate ID > Korea\n🔥 */TR-kor-id* _<text>_ : Translate Korea > ID\n🔥 *help* : Cara Menggunkan Command'
         msg.body(text)
