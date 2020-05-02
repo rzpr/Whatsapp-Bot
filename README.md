@@ -1,16 +1,24 @@
-# 🤖 Whatsapp-Helper-Bot
-(Bots For Helping You For Downloads Social Media Video)
+# 🤖 Whatsapp-Bot
+(Using Twilio Api)
 
 ![Python Badge](https://img.shields.io/badge/Made%20with-Python-blue)
 
 
 
 ## ✨ Features
-- Facebook Video Downloader ✅
-- Instagram Video Downloade ✅
-- Translator Id > eng ✅
-- Google Search Engine ✅
+- Facebook Video Downloader 
+- Instagram Video Downloader
+- Translator Id > eng 
+- Translator eng > id
+- Translator kor > id
+- Translator id > kor
+- Google Search Engine 
 - Get Instagram Profile Info
+- Youtube Search
+- Generate Youtube Direct mp3/mp4 link
+- Corona Info Indonesia/Global
+- Jadwal Sholat Provinsi
+- 
 
 ## 🗒️ Requirements
 * [Python 3.6](https://www.python.org/downloads/) 
@@ -22,12 +30,16 @@
 ## ⌨️ Usage
 ```
 start <show menu>
-/FB <your url>
-/IG <your url>
-/YT <your url>
-/TR <for translate id to eng>
+/FB <Your Urk>
+/IG <Your Url>
+/YT <Your Url>
+/SY <Your Url>
+/TR-id-eng <Text>
+/TR-eng-id <Text>
+/TR-kor-id <Text>
+/TR-id-kor <Text>
 /GL < query >
-/GS <username>
+/SG <Instagram Username>
  ```
  
  # Priview Bots
