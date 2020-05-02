@@ -160,6 +160,20 @@ def bot():
        text = f'💻 *Help For Instagram*\n\n/IG <Link Video> Contoh : \n/IG https://www.instagram.com/p/BWhyIhRDBCw/\n\n\n*Note* : Link Harus Seperti Di Contoh Kalo link Akhirannya Ada ?utm_source=ig_web_copy_link hapus bagian itu\n\n 💻 *Help For Facebook*\n\n/FB _link video_ Contoh :\n\n/FB https://www.facebook.com/100010246050928/posts/1143182719366586/?app=fbl \n\n💻 *Help For Google Search* \n\n /GL <Query> Contoh :  \n\n/GL rezzaapr \n\n💻 *Help For Instagram Stalking \n\n/SG <username> Contoh : \n\n/SG rzapr \n\n💻 *Help For Translate* \n\nTR-id-en Translate indonesia Ke inggris\n\n/TR-en-id Translate Inggris Ke Indonesia\n\n/TR-id-kor Translate Indonesia Ke Korea \n\n/TR-kor-id Translate Korea Ke Indonesia \n\n💻 *Help For Text To Speech* \n\n/TTS WhatsappBotRezzaapr\n\nJika Ingin Menggunakan Spasi Ganti Dengan %20\n\nContoh : /TTS Whatsapp%20Bot%Rezzaapr'
        msg.body(text)
        responded = True
+    
+    if '!' in incoming_msg:
+        us = incoming_msg[2:]
+        url = 'https://wsapi.simsimi.com/190410/talk/'
+        body = {'utext': us, 'lang': 'id'}
+        headers = {'content-type': 'application/json', 'x-api-key': 'LKgWy5I-HoG8K0CmpWl.SNncus1UOpwBiA1XAZzA'}
+        r = requests.post(url, data=json.dumps(body), headers=headers)
+        if r status_code == 200:
+            js = r.json()
+            text = f'{js["atext"]}'
+        else:
+            text = f'Error Kemungkinan Sudah Limit'
+        msg.body(text)
+        responded = True 
 
     if responded == False:
         msg.body('Maaf Saya Hanya Bot Tidak Mengenal Perintah Itu :), Silahkan Kirim start Untuk Menunju Ke Menu')
