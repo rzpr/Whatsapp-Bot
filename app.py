@@ -29,6 +29,8 @@ def bot():
         jss = reqq.json()
         js = req.json()
         text = f'*Info Coronavirus Indonesia*\n\n\n*Positif* : {js['cases']} \n*Sembuh* : {js['recovered']} \n*Meninggal* : {js['deaths']}  \n\n\n*Global* \n*Positif* : {jss['cases']} \n*Sembuh* : {jss['recovered']} \n*Meninggal* : {jss['deaths']} 
+        msg.body(text)
+        responded = True
     
     if 'Menu' in incoming_msg or 'menu' in incoming_msg:
         text = f'⌨️ *List Of Command :* \n\n🔥*/JS* _<kota>_ Jadwal Sholat  \n\n🔥*jadwal-imsak* _Menampilkan Jadwal Imsak_ \n\n🔥*/SY* _<url>_ : Youtube Search\n🔥 */YT* _<url>_ : Youtube Downloader\n🔥 */FB* _<url>_ : Facebook Downloader\n🔥 */IG* _<url>_ : Instagram Downloader\n🔥 */FL* _<url>_ : Download Video Fb Ukuran BIG\n🔥 */GL* _<query>_ : Google Search\n🔥 */SG* _<usrname>_ : Get Info Instagram\n🔥 */TTS* <Text> : Text To Speech\n🔥 */TR-id-en* _<text>_ : Translate ID > ENG\n🔥 */TR-en-id* _<text>_ : Translate ENG > ID\n🔥 */TR-id-kor* _<text>_ : Translate ID > Korea\n🔥 */TR-kor-id* _<text>_ : Translate Korea > ID\n🔥 *help* : Cara Menggunkan Command'
