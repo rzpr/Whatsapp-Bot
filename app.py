@@ -28,7 +28,7 @@ def bot():
         reqq = r.get('https://coronavirus-19-api.herokuapp.com/countries/world')
         jss = reqq.json()
         js = req.json()
-        text = f'*Info Coronavirus Indonesia*\n\n\n*Positif* : {js["cases"]} \n*Sembuh* : {js["recovered"]} \n*Meninggal* : {js["deaths"]}  \n\n\n*Global* \n*Positif* : {jss["cases"]} \n*Sembuh* : {jss["recovered"]} \n*Meninggal* : {jss["deaths"]} 
+        text = f'*Info Coronavirus Indonesia*\n\n\n*Positif* : {js["cases"]} \n*Sembuh* : {js["recovered"]} \n*Meninggal* : {js["deaths"]}  \n\n\n*Global* \n*Positif* : {jss["cases"]} \n*Sembuh* : {jss["recovered"]} \n*Meninggal* : {jss["deaths"]}'
         msg.body(text)
         responded = True
     
