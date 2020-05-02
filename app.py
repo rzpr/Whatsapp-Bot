@@ -162,15 +162,16 @@ def bot():
        responded = True
     
     if '!' in incoming_msg:
-        us = incoming_msg[2:]
-        url = 'https://wsapi.simsimi.com/190410/talk/'
-        body = {'utext': us, 'lang': 'id'}
-        headers = {'content-type': 'application/json', 'x-api-key': 'LKgWy5I-HoG8K0CmpWl.SNncus1UOpwBiA1XAZzA'}
-        r = requests.post(url, data=json.dumps(body), headers=headers)
-        js = r.json()
-        text = f'{js["atext"]}'
-        msg.body(text)
-        responded = True 
+       import requests
+       us = incoming_msg[2:]
+       url = 'https://wsapi.simsimi.com/190410/talk/'
+       body = {'utext': us, 'lang': 'id'}
+       headers = {'content-type': 'application/json', 'x-api-key': 'LKgWy5I-HoG8K0CmpWl.SNncus1UOpwBiA1XAZzA'}
+       r = requests.post(url, data=json.dumps(body), headers=headers)
+       js = r.json()
+       text = f'{js["atext"]}'
+       msg.body(text)
+       responded = True 
 
     if responded == False:
         msg.body('Maaf Saya Hanya Bot Tidak Mengenal Perintah Itu :), Silahkan Kirim start Untuk Menunju Ke Menu')
