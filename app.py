@@ -167,11 +167,8 @@ def bot():
         body = {'utext': us, 'lang': 'id'}
         headers = {'content-type': 'application/json', 'x-api-key': 'LKgWy5I-HoG8K0CmpWl.SNncus1UOpwBiA1XAZzA'}
         r = requests.post(url, data=json.dumps(body), headers=headers)
-        if r status_code == 200:
-            js = r.json()
-            text = f'{js["atext"]}'
-        else:
-            text = f'Error Kemungkinan Sudah Limit'
+        js = r.json()
+        text = f'{js["atext"]}'
         msg.body(text)
         responded = True 
 
