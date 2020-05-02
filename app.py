@@ -28,12 +28,12 @@ def bot():
         reqq = r.get('https://coronavirus-19-api.herokuapp.com/countries/world')
         jss = reqq.json()
         js = req.json()
-        text = f'*Info Coronavirus Indonesia*\n\n\n*Positif* : {js["cases"]} \n*Sembuh* : {js["recovered"]} \n*Meninggal* : {js["deaths"]}  \n\n\n*Global* \n*Positif* : {jss["cases"]} \n*Sembuh* : {jss["recovered"]} \n*Meninggal* : {jss["deaths"]}'
+        text = f'*Info Coronavirus Indonesia*\n\n\n*Positif* : {js["cases"]} \n*Sembuh* : {js["recovered"]} \n*Meninggal* : {js["deaths"]}  \n\n\n*Global* \n\n\n*Positif* : {jss["cases"]} \n*Sembuh* : {jss["recovered"]} \n*Meninggal* : {jss["deaths"]}'
         msg.body(text)
         responded = True
     
     if 'Menu' in incoming_msg or 'menu' in incoming_msg:
-        text = f'⌨️ *List Of Command :*  \n\n🔥*info-covid* (Informasi Coronavirus) \n\n🔥*/JS* _<kota>_ Jadwal Sholat  \n\n🔥*jadwal-imsak* _Menampilkan Jadwal Imsak_ \n\n🔥*/SY* _<url>_ : Youtube Search\n🔥 */YT* _<url>_ : Youtube Downloader\n🔥 */FB* _<url>_ : Facebook Downloader\n🔥 */IG* _<url>_ : Instagram Downloader\n🔥 */FL* _<url>_ : Download Video Fb Ukuran BIG\n🔥 */GL* _<query>_ : Google Search\n🔥 */SG* _<usrname>_ : Get Info Instagram\n🔥 */TTS* <Text> : Text To Speech\n🔥 */TR-id-en* _<text>_ : Translate ID > ENG\n🔥 */TR-en-id* _<text>_ : Translate ENG > ID\n🔥 */TR-id-kor* _<text>_ : Translate ID > Korea\n🔥 */TR-kor-id* _<text>_ : Translate Korea > ID\n🔥 *help* : Cara Menggunkan Command'
+        text = f'⌨️ *List Of Command :*  \n\n🔥 *info-covid* (Informasi Coronavirus) \n\n🔥 */JS* _<kota>_ Jadwal Sholat  \n\n🔥 *jadwal-imsak* _Menampilkan Jadwal Imsak_ \n\n🔥 */SY* _<url>_ : Youtube Search\n\n🔥 */YT* _<url>_ : Youtube Downloader\n\n🔥 */FB* _<url>_ : Facebook Downloader\n\n🔥 */IG* _<url>_ : Instagram Downloader\n\n🔥 */FL* _<url>_ : Download Video Fb Ukuran BIG\n\n🔥 */GL* _<query>_ : Google Search\n\n🔥 */SG* _<usrname>_ : Get Info Instagram\n\n🔥 */TTS* <Text> : Text To Speech\n\n🔥 */TR-id-en* _<text>_ : Translate ID > ENG\n\n🔥 */TR-en-id* _<text>_ : Translate ENG > ID\n\n🔥 */TR-id-kor* _<text>_ : Translate ID > Korea\n\n🔥 */TR-kor-id* _<text>_ : Translate Korea > ID\n\n🔥 *help* : Cara Menggunkan Command'
         msg.body(text)
         responded = True
         
