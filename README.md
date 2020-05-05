@@ -1,4 +1,4 @@
-# 🤖 Whatsapp-Bot
+# 🤖 Whatsapp-Bot ( LANG ID )
 (Using Twilio Api)
 
 ![Python Badge](https://img.shields.io/badge/Made%20with-Python-blue)
