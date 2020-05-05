@@ -45,7 +45,7 @@ start <show menu>
  # Priview Bots
 - if you want to test my bot here's the link [Click Here](https://api.whatsapp.com/send?phone=14155238886&text=join+government-would) 
 
-<img src="https://user-images.githubusercontent.com/58212770/81090342-c764f400-8f27-11ea-9702-7e4cd5ba1f01.png" height="500" width="250">  <img src="https://user-images.githubusercontent.com/58212770/81090386-d8ae0080-8f27-11ea-8178-956b962a480d.png" height="500" width="250"> <img src="https://user-images.githubusercontent.com/58212770/81094712-1f9ef480-8f2e-11ea-9638-88123a502c62.png" height="500" width="250"> <img src="https://user-images.githubusercontent.com/58212770/81094715-20d02180-8f2e-11ea-8e92-fa71f5f97369.png" height="500" width="250"> <img src="https://user-images.githubusercontent.com/58212770/81094726-2463a880-8f2e-11ea-8080-12eec8885a33.png" height="500" width="250">
+<img src="https://user-images.githubusercontent.com/58212770/81090342-c764f400-8f27-11ea-9702-7e4cd5ba1f01.png" height="500" width="250">  <img src="https://user-images.githubusercontent.com/58212770/81090386-d8ae0080-8f27-11ea-8178-956b962a480d.png" height="500" width="250"> <img src="https://user-images.githubusercontent.com/58212770/81094712-1f9ef480-8f2e-11ea-9638-88123a502c62.png" height="500" width="250"> <img src="https://user-images.githubusercontent.com/58212770/81094715-20d02180-8f2e-11ea-8e92-fa71f5f97369.png" height="500" width="250"> <img src="https://user-images.githubusercontent.com/58212770/81094726-2463a880-8f2e-11ea-8080-12eec8885a33.png" height="500" width="250"> <img src="https://user-images.githubusercontent.com/58212770/81094734-262d6c00-8f2e-11ea-9854-0f7541c9f8c2.png" height="500" width="250">
 
 
 ## 🖥️ Installation
