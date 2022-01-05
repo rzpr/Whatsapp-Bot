@@ -32,10 +32,6 @@ def bot():
         msg.body(text)
         responded = True
     
-    if 'Menu' in incoming_msg or 'menu' in incoming_msg:
-        text = f'⌨️ *List Of Command :*  \n\n🔥 *info-covid* (Informasi Coronavirus) \n\n🔥 */JS* _<kota>_ Jadwal Sholat  \n\n🔥 *jadwal-imsak* _Menampilkan Jadwal Imsak_ \n\n🔥 */SY* _<url>_ : Youtube Search\n\n🔥 */YT* _<url>_ : Youtube Downloader\n\n🔥 */FB* _<url>_ : Facebook Downloader\n\n🔥 */IG* _<url>_ : Instagram Downloader\n\n🔥 */FL* _<url>_ : Download Video Fb Ukuran BIG\n\n🔥 */GL* _<query>_ : Google Search\n\n🔥 */SG* _<usrname>_ : Get Info Instagram\n\n🔥 */TTS* <Text> : Text To Speech\n\n🔥 */TR-id-en* _<text>_ : Translate ID > ENG\n\n🔥 */TR-en-id* _<text>_ : Translate ENG > ID\n\n🔥 */TR-id-kor* _<text>_ : Translate ID > Korea\n\n🔥 */TR-kor-id* _<text>_ : Translate Korea > ID\n\n🔥 *help* : Cara Menggunkan Command'
-        msg.body(text)
-        responded = True
         
     if '/FB' in incoming_msg:
         import requests as r
